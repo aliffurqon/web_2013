@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#0092ED;
+	background-attachment:fixed;
+}
+#wrapper {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e5e5e5;
+	box-shadow: 5px -5px 39px 000;
+	border-top-left-radius: 20px;
+	-moz-border-left-radius: 20px;
+	border-top-right-radius: 20px;
+	-moz-border-right-radius: 20px;
+}
+/*start HEADER*/
+#wrapper #header {
+	height:120px;
+	background-color:#FF7400;
+	padding-left: 40px;
+	padding-top:30px;
+	border-top-left-radius:20px;
+	-moz-border-left-radius:20px;
+	border-top-right-radius:20px;
+	-moz-border-right-radius:20px;
+}
+
+#wrapper #header h1 {
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#FFF;
+	font-size:36px;
+	font-weight:bold;
+}
+
+#wrapper #header h2 {
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+}
+/*END HEADER */
+
+/*start menu*/
+#wrapper #nav {
+	height:50px;
+	background-color:#33CCCC;
+	overflow:hidden;
+}
+
+#wrapper #nav ul {
+	margin:0px;
+	list-style-type:none;
+	padding:0px;
+}
+#wrapper #nav ul li{
+	float: left;
+	width: 205px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #933;
+	text-align: center;
+	line-height: 45px;
+	height: 50px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.judulhalaman{
+	background-color: #1D7373;
+	color: #fff;
+	padding: 5px;
+	clear:both;
+}
+
+#wrapper #nav ul li a {
+	text-decoration:none;
+	width:100px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-align:center;
+	line-height:45px;
+	height:50px;
+	font-weight:bold;
+	display:block;
+}
+
+#wrapper #nav ul li a:hover {
+	text-decoration:none;
+	width:100px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#933;
+	text-align:center;
+	line-height:45px;
+	height:50px;
+	font-weight:bold;
+	background-color:#6F0;
+	display:block;
+}
+/*end menu*/
+
+/* Content*/
+#loginmember{
+	background-color: #FF9640;
+	padding: 3px;
+	margin-top: -6px;
+	margin-left: -6px;
+}
+
+#searchform{
+	background-color: #CCC;
+	padding: 3px;
+	color: lightseagreen;
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: bold;
+	margin-right: -4px;
+	margin-top: -6px;
+}
+
+#registerclick{
+	background-color: #666;
+	padding: 3px;
+	color: #fff;
+	margin-left: -6px;
+	width: 244px;
+	font-size: 13px;
+	margin-bottom: 55px;
+}
+
+#registerclick a{
+	text-decoration:none;
+	color:#F00;
+}
+
+#wrapper #content{
+	padding:10px;
+	overflow:hidden;
+}
+#wrapper #content #welcome h1{
+	margin-top: 107px;
+	margin-bottom: 0px;
+	color: #fff;
+	background-color: #9F0;
+	text-align: center;
+}
+
+#welcomeparagraf{
+	background-color: #F00;
+	text-align: justify;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 1px;
+}
+
+#wrapper #content p img {
+	width:100px;
+	height:auto;
+	float:left;
+	margin-right:5px;
+}
+/*end*/
+#wrapper #footer{
+	height:30px;
+	background-color:#00005D;
+	text-align:center;
+	padding-top:20px;
+	color: #fff;
+}
+
+.formfieldname{
+	color:#000;
+	font-size:16px;
+	font-weight:bold;
+	width:150px;
+}
+
+.formfieldseparator{
+	width:10px;
+	font-size:18px;
+	font-weight:bold;
+	color:#000
+}
+
+.formtextfield{
+	width:200px;
+}
+
+.newsitem{
+	display: block;
+	background-color: #FFF;
+	padding: 20px;
+	margin-bottom: 40px;
+	border-color: #300;
+	margin-top: -19px;
+	overflow:hidden;
+}
+
+.jadiinsatutanggaltitle{
+	line-height: 1.2em;
+	display: block;
+	background-color: #168ddb;
+	padding: 10px;
+	margin-bottom:10px;
+}
+
+.newsdate{
+	font-family: Georgia, arial;
+	font-size:10px;
+	color:#000;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.newstitle{
+	font-family: Georgia, arial;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.newstitle a{
+	text-decoration:none;
+	font-family: Georgia, arial;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.newstitle a:hover{
+	text-decoration:none;
+	font-family: Georgia, arial;
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.newsparagraph{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:justify;
+	margin-top:0px;
+	margin-bottom:30px;
+}
+
+.newsparagraph img{
+	float:left;
+	margin-right:5px;
+	width:100px;
+	height:auto;
+}
+
+.newsparagraph a{
+	clear:both;
+	margin-top:20px;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	color:#300;
+}
+
+.newsparagraph a:hover{
+	clear:both;
+	margin-top:20px;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	color:#F00;
+}
+
+.detailnewsdate{
+	clear: both;
+	font-family: Georgia, arial;
+	font-size: 10px;
+	color: #000;
+	padding: 10px;
+}
+
+.jadiinsatutanggaltitledetail{
+	line-height: 1.2em;
+	display: block;
+	background-color: #168ddb;
+	padding: 10px;
+	margin-bottom: 17px;
+	margin-top: 100px;
+}
+
+.detailtitle{
+	font-family: Georgia, arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: -25px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+#registerclickdetail{
+	background-color: #666;
+	padding: 3px;
+	color: #fff;
+	width: 620px;
+	font-size: 13px;
+	margin-top: -70px;
+	margin-bottom: 10px;
+}
+
+#registerclickdetail a{
+	text-decoration:none;
+	color:#F00;
+}
+
+.newsdetail{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	margin-bottom: 30px;
+	padding: 15px;
+	background-color: #fff;
+	margin-top: -10px;
+	overflow:hidden;
+}
+
+.pagelink{
+	display:block;
+	width:20px;
+	height:20px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	background-color:#F00;
+	float: left;
+	text-decoration:none;
+	margin-right:10px;
+}
+
+.pagelink:hover{
+	display:block;
+	width:20px;
+	height:20px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	background-color:#333;
+	float: left;
+	text-decoration:none;
+	margin-right:10px;
+}
+
+.pagelinkactive{
+	display:block;
+	width:20px;
+	height:20px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	background-color:#333;
+	float: left;
+	text-decoration:none;
+	margin-right:10px;
+}
+
+.comenttexfield{
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.commentextarea{
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	height:200px;
+}
+
+.commentsubmitbutton{
+	border-style:none;
+	border-width:0px;
+	width:100px;
+	height:30px;
+	border-radius:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#F00;
+	color:#FFF;
+}
+
+#member{
+	width:500px;
+	float:left;
+}
+
+#search{
+	float:right;
+}
+
+.clearfloat{
+	clear:both;
+}
+
+#content h1{
+	clear:both;
+}

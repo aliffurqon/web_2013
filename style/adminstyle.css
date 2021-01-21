@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  background-color:#CCCCCC;
+}
+
+#adminwrapper {
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#FFFFFF;
+}
+
+#adminwrapper #adminheader {
+  height:150px;
+  background-color:#666666;
+}
+
+#adminwrapper #adminheader h1 {
+  font-size:28px;
+  font-weight:bold;
+  color:#FFFFFF;
+  padding-top:45px; 
+  padding-left:10px;
+}
+
+#adminwrapper #adminheader h2 {
+  font-size:18px;
+  font-weight:bold;
+  padding-left:10px;
+} 
+
+
+
+#adminwrapper #adminmenu {
+  height:40px; 
+  background-color:#999999
+} 
+
+#adminwrapper #adminmenu ul {
+ list-style-type:none;
+}
+
+#adminwrapper #adminmenu ul li {
+ float:left;
+ width:150px;
+ height:40px;
+ display:block;
+ text-align:center;
+ font-weight:bold;
+ font-size:18px;
+ line-height:35px;
+}
+
+#adminwrapper #adminmenu ul li a {
+ float:left;
+ width:150px;
+ height:40px;
+ display:block;
+ text-align:center;
+ font-weight:bold;
+ font-size:18px;
+ line-height:35px;
+ text-decoration:none; 
+ color:#FFFFFF;
+}
+
+#adminwrapper #adminmenu ul li a:hover {
+ float:left;
+ width:150px;
+ height:40px;
+ display:block;
+ text-align:center;
+ font-weight:bold;
+ font-size:18px;
+ line-height:35px;
+ text-decoration:none;
+ color:#FFFFFF;
+ background-color:#6633FF;
+}
+
+#adminwrapper #admincontent {
+  padding:10px;
+}
+
+.tableheader {
+  background-color:#666666;
+  color:#CCCCCC;
+  height:20px;
+  
+  border-top-style:solid;
+  border-top-width:1px; 
+  border-top-color:#333333;
+  
+  border-bottom-style:solid;
+  border-bottom-width:1px; 
+  border-bottom-color:#333333;
+  
+  border-left-style:solid;
+  border-left-width:1px; 
+  border-left-color:#333333;
+  
+  padding-left:10px; 
+  font-weight:bold;
+  font-size:14px;
+}
+
+#adminwrapper #adminfooter {
+  height:30px;
+  background-color:#666666;
+}
+
+.tablevalue {
+  background-color:#FFFFFF;
+  color:#333333;
+  height:20px;
+  
+  border-top-style:solid;
+  border-top-width:1px; 
+  border-top-color:#333333;
+  
+  border-bottom-style:solid;
+  border-bottom-width:1px; 
+  border-bottom-color:#333333;
+  
+  border-left-style:solid;
+  border-left-width:1px; 
+  border-left-color:#333333;
+  
+  padding-left:5px; 
+  
+}
+
+.tablevalueright {
+  background-color:#FFFFFF;
+  color:#333333;
+  height:20px;
+  
+  border-top-style:solid;
+  border-top-width:1px; 
+  border-top-color:#333333;
+  
+  border-bottom-style:solid;
+  border-bottom-width:1px; 
+  border-bottom-color:#333333;
+  
+  border-left-style:solid;
+  border-left-width:1px; 
+  border-left-color:#333333;
+  
+  border-right-style:solid;
+  border-right-width:1px; 
+  border-right-color:#333333;
+  
+  padding-left:5px; 
+  
+}
+
+#adminwrapper #admincontent h2 {
+  font-size:24px;
+  font-weight:bold;
+  color:#666666;
+  margin-bottom:10px;
+}
+
+#adminwrapper #adminfooter {
+  height:25px;
+  background-color:#666666;
+  padding-top:5px;
+  text-align:center;  
+  color:#CCCCCC;
+}
+
+#loginwrapper {
+	width:500px;
+	line-height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	background-color:#FFFFFF;
+}
+
+#loginwrapper #loginheader {
+   height:35px; 
+   padding-top:5px;
+   padding-left:10px;
+   font-size:18px;
+   font-weight:bold;
+   background-color:#333333;
+   color:#FFFFFF;
+}
+
+#loginwrapper #logincontent {
+  padding:20px;
+  
+}
+
+#usernamelogout {
+ text_align:right;
+}
+
+#loginwrapper #logincontent #userlogout{
+	text-align:right;
+}
